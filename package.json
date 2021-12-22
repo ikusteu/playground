@@ -1,0 +1,35 @@
+{
+  "name": "mail-tester",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node esbuild/bundler.js --mode serve"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "esbuild": "^0.14.5",
+    "esbuild-plugin-svgr": "^1.0.0",
+    "eslint": "^8.5.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-import-resolver-typescript": "^2.4.0",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-plugin-unused-imports": "^1.0.1",
+    "prettier": "^2.5.1",
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "@sentry/react": "^6.16.1",
+    "@sentry/tracing": "^6.16.1",
+    "@types/react": "^17.0.37",
+    "@types/react-dom": "^17.0.11",
+    "firebase": "^9.6.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router": "^6.2.1",
+    "react-router-dom": "^6.2.1"
+  }
+}
